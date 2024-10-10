@@ -1,0 +1,126 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+
+/* Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color Variables */
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+/* Typography */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background: var(--Grey-900);
+    color: var(--White);
+}
+
+/* Layout */
+.social-card {
+    width: 22rem;
+    min-height: 33rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--Grey-800);
+    border-radius: 0.8rem;
+}
+
+.avatar {
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 50%;
+}
+
+/* Headings and Text */
+.full-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.location {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--Green);
+    padding-bottom: 1.3rem;
+}
+
+.bio {
+    font-size: 0.8rem;
+    padding-bottom: 0.7rem;
+}
+
+/* Social Links */
+.social-links {
+    min-width: 96%;
+}
+
+.social-links ul {
+    list-style: none;
+}
+
+.social-links li {
+    margin-top: 0.8rem;
+    background: var(--Grey-700);
+    border-radius: 0.3rem;
+}
+
+.social-links a {
+    display: block;
+    padding: 0.65rem 2rem;
+    font-weight: 600;
+    color: var(--White);
+    text-decoration: none;
+}
+
+.social-links li:hover {
+    background: var(--Green);
+}
+
+.social-links li:hover a {
+    color: var(--Grey-900);
+}
+
+/* Attribution */
+.attribution {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.attribution a {
+    color: var(--Green);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--White);
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 375px) {
+    .social-card {
+        width: 90vw;
+    }
+}
