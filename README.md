@@ -1,12 +1,12 @@
-# Frontend Mentor - Social links profile solution
+# Frontend Mentor - Social Links Profile Solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
+This is a solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
 
 ## Overview
 
 ### Screenshot
-![screenshot-blog-preview-card](https://github.com/user-attachments/assets/52a731b1-73b6-4f09-b695-dc3f42823703)
+![social-link-profile-screenshot](https://github.com/user-attachments/assets/b495a61d-e542-4df2-a2e3-03f607a9809b)
 
 ### Links
 
--   [Live Demo]([https://simple-blog-preview-card.netlify.app/](https://social-card-profile-fm.netlify.app/))
+-   [Live Demo](https://social-card-profile-fm.netlify.app/)
